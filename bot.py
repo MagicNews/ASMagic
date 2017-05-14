@@ -17,7 +17,7 @@ from multiprocessing import Process, freeze_support
 from config import *
 bot = TeleBot(token,threaded=False)
 boti = bot.get_me()
-db = redis.StrictRedis(host='localhost', port=6379, db=12)
+db = redis.StrictRedis(host='localhost', port=6379, db=redis_db)
 # Locks + Typs
 telelocks = ["Cmd","Joinmember","Bot"]
 teleenable = ["Wlc","EditProcess"]
