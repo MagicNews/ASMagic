@@ -92,18 +92,9 @@ You can find a backup of your Redis database in `/etc/redis/dump.rdb`. The name 
 
 * * *
 
-## Pull requests
-
-If you are going to open a pull request, please use the [`beta` branch](https://github.com/RememberTheAir/GroupButler/tree/beta) as destination branch.
-
-Pull requests in the `master` branch won't be considered, unless they are intended to solve a critical problem.
-
-* * *
-
 ## Credits
 
 [eternnoir](https://github.com/eternnoir), for [telebot](https://github.com/eternnoir/pyTelegramBotAPI)
-
 
 All the people who reported bugs and suggested new stuffs
 
