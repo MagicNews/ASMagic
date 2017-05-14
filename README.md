@@ -19,11 +19,12 @@ MagicAntiSpam bot was born as a python [telebot](https://github.com/eternnoir/py
 List of required packages:
 - `python2.7`
 - `redis-server`
+
 You will need some other Python modules too, which can be (and should be) installed through the Python package manager(pip)
 
 **Installation**
 
-You can easily install Group Butler by running the following commands:
+You can easily install MagicAntiSpam by running the following commands:
 
 ```bash
 # Tested on Ubuntu 16.04
