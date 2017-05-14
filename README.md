@@ -50,8 +50,8 @@ $ pip install redis
 $ git clone https://github.com/MagicNews/ASMagic.git
 $ cd ASMagic
 $ sudo chmod 777 launch.sh
+$ mv ./usr/local/lib/python2.7/dist-packages/telebot /usr/local/lib/python2.7/dist-packages/telebot
 ```
-
 Other things to check before running the bot:
 
 **First of all, take a look at your bot settings:**
@@ -66,7 +66,7 @@ Other things to check before running the bot:
 >
 > • Insert your admins numerical Telegram ID into the `admins` table. Other superadmins can be added too. It is important that you insert the numerical ID and NOT a string.
 >
-> • Set your `log_chat` (the ID of the chat where the bot will send all the bad requests received from Telegram) and your `errors_chat` (the ID of the user that will receive execution errors).
+> • Set your `log_chat` (the ID of the chat where the bot will send all the bad requests received from Telegram) and your `errors_chat` (the ID of the chat that will receive execution errors).
 
 
 Before you start the bot, you have to start the Redis process.
