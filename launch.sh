@@ -1,4 +1,3 @@
 while true; do
-python ./test.py
-killall python
+python ./bot.py
 done
