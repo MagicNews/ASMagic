@@ -52,7 +52,6 @@ $ pip install --upgrade pytelegrambotapi
 $ git clone https://github.com/MagicNews/ASMagic.git
 $ cd ASMagic
 $ sudo chmod 777 launch.sh
-$ mv ./usr/local/lib/python2.7/dist-packages/telebot /
 ```
 Other things to check before running the bot:
 
