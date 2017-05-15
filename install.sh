@@ -24,7 +24,6 @@ else
     git clone https://github.com/MagicNews/ASMagic.git
     cd ASMagic
     sudo chmod 777 launch.sh
-    mv ./usr/local/lib/python2.7/dist-packages/telebot /
     echo -e "\e[1;32mMagicAntiSpam successfully installed! Change values in config file and run ./launch.sh\e[0m"
     echo " "
 fi
