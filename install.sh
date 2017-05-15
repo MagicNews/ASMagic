@@ -16,7 +16,7 @@ else
     
     modules="requests redis"
     for module in $modules; do
-        sudo pip install $module
+        sudo pip install --upgrade $module
     done
         
     
