@@ -43,8 +43,9 @@ $ sudo apt-get install python2.7 python-pip
 
 # We are going now to install the required Python modules
 
-$ pip install requests
-$ pip install redis
+$ pip install --upgrade requests
+$ pip install --upgrade redis
+$ pip install --upgrade pytelegrambotapi
 
 # Clone the repository and give the launch script permissions to be executed
 
