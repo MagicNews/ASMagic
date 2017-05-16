@@ -794,13 +794,13 @@ Channel:@MagicNews"""
         return settings
     elif s == 'chatinfot' :
         if l == 'en' :
-            if arg['type'] == "supergroupsupergroup" :
+            if arg['type'] == "supergroup" :
                 type = "Supergroup"
             else :
                 type = "Group"
             return '<b>Title</b> : <i>'+arg['title'][:40].replace("<","&lt;").replace(">","&gt;").replace("&","&amp;")+'</i>\n<b>ID</b> : <i>'+str(arg['id'])+'</i>\n<b>Type</b> : <i>'+type+'</i>'
         else :
-            if arg['type'] == "title" :
+            if arg['type'] == "supergroup" :
                 type = "سوپر گروه"
             else :
                 type = "گروه"
@@ -1154,7 +1154,7 @@ def ibkb1(l,gp) :
 def panelmain(l,gp) :
     gp = str(gp)
     markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton(ln(l,"chatinfo")+" 📝",callback_data="chatinfo:"+gp),types.InlineKeyboardButton(ln(l,"chatusers")+" 👥",callback_data="chatusers:"+gp))
+    markup.add(types.InlineKeyboardButton(ln(l,"chatinfo")+" 📝",callback_data="chatinfo:"+gp))
     markup.add(types.InlineKeyboardButton(ln(l,"mutelist")+" 🔇",callback_data="mutelist:"+gp),types.InlineKeyboardButton(ln(l,"settings")+" ⚙",callback_data="settings:"+gp),types.InlineKeyboardButton(ln(l,"banlist")+" ☠",callback_data="banlist:"+gp))
     return markup
 def settingkbmain(l,gp) :
