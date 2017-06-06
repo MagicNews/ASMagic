@@ -1463,7 +1463,7 @@ def check_text(m) :
             return False
     # -- Check Bad Words
     for v in db.smembers('badwords:gp:'+str(m.chat.id)) :
-        if text.lower().find(v)  :
+        if text.lower().find(v) >= 0 :
             bot.delete_message(m.chat.id,m.message_id)
             return False
     return True
